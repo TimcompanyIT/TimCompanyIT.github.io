@@ -1,88 +1,53 @@
 body{
-	padding:0;
-	margin:0;
-	background-color: #E7E7F0;
+	background-color: gray;
 }
-
-header{
-	height: 50px;
-	color:white;
-	background-color: black;
-	text-align: center;
-}
-
-header span{
-	font-family: Arial;
-	font-size: 42px;
-}
-
-#portfolio{
-	font-size:26px;
-	margin-left: 5px;
-	font-family: Vivaldi;
-}
-
-#menu li{
-	float:right;
-	margin-right: 5px;
-}
-
-.container{
-	width:65%;
-	margin:0 auto;
-}
-
-nav{
-	width:20%;
-	height: 679px;
-	border-right:1px solid black;
-}
-
-nav table{
-	margin:0;
-	padding:0;
-	font-size: 22px;
-	width:100%;
-}
-
-nav table tr td{
-	transition: all 0.6s;
-}
-
-nav table tr a{
-	text-decoration: none;
-	color:black;
-}
-
-nav table tr a:hover{
-	color:white;
-}
-
-nav table tr:hover{
-	background-color: black;
-}
-
-nav table td:hover{
-	color:white;
-	padding-left: 35px;
-}
-
-nav{
-	float:left;
-}
-
-#clear{
-	clear:both;
-}
-
-
-
 footer{
-	color:white;
-	height: 60px;
-	background-color: black;
-	border-bottom: 1px solid black;
+    color:white;
+	height: 35px;
+	background-color: #0005;
+	
 	text-align: center;
-	font-size: 43px;
+	font-size: 30px;
 	font-family: Arial;
+
+}
+nav {
+	background-color: #0000;
+	text-align: center;
+	height: 50px;
+	margin-top: :0px;
+	
+}
+h1{
+	color: red;
+	text-align: center;
+
+}
+
+.logo {
+	float: left;
+	width:50px; 
+	height:50px;
+	
+}
+#img{
+	border-radius: 50%;
+
+}
+nav a {
+	list-style-type: none;
+	display: inline-block;
+	float: right;
+	line-height: 50px;
+	width: 80px;
+	transition:  0.5s all;
+	color:white;
+	text-decoration: none;
+
+}
+nav div a:hover{
+	font-size: 20px;
+	color: #cccccc;
+	
+	
 }
